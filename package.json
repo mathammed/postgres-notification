@@ -1,0 +1,27 @@
+{
+  "name": "postgres-notification",
+  "version": "1.0.0",
+  "description": "Notification system with PostgreSQL (pg_notify)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbstractBits/postgres-notification.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbstractBits/postgres-notification/issues"
+  },
+  "homepage": "https://github.com/AbstractBits/postgres-notification#readme",
+  "dependencies": {
+    "pg": "^8.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
